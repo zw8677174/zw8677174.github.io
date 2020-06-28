@@ -1,16 +1,15 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+# Example Site settings
 
-permalink: /themes/:title/
+#google_analytics: UA-NNNNNNNN-N
 
-plugins: [jekyll-paginate]
+#header_pages:
+#  - index.md
+#  - about.md
 
-highlighter: pygments
-paginate: 20
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+plugins:
+  - jekyll-seo-tag
