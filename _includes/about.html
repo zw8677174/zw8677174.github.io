@@ -1,13 +1,10 @@
 <div class="user-details">
-  <h1>My Expertise</h1>
-  <p>{{ site.user_description }}</p>
+    <h1>My Expertise</h1>
+    <p>{{ site.user_description }}</p>
+    {% for post in posts %}
+    <h1>{{post}}</h1>
+    <p>{{ site.user_description }}</p>
+    {% endfor %}
 </div>
 
 
-{% for post in posts %}
-
-<div class="user-details">
-  <h1>My Expertise</h1>
-  <p>{{ site.user_description }}</p>
-</div>
-{% endfor %}
