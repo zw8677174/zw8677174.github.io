@@ -19,4 +19,4 @@ google-analytics:
 
 exclude: ['package.json', 'src' , 'node_modules']
 
-post: ["1", "2"]
+posts: ["1", "2"]
